@@ -30,7 +30,8 @@ namespace MyApp// Note: actual namespace depends on the project name.
                     Console.WriteLine("\nSu numero es negativo.\n"); 
                 }
 
-                else{
+                else
+                {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\nSu numero es igual a cero.\n");
                 }
@@ -62,7 +63,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\nNo eres mayor de edad, no puedes votar ni conducir legalmente.\n");
                         }
-                        break;
+                    break;
                     
                     case 4:
                         Console.WriteLine("\nIngrese un numero:");
@@ -79,10 +80,10 @@ namespace MyApp// Note: actual namespace depends on the project name.
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\nEl numero ingresado es impar.\n");
                         }
-                        break;
+                    break;
                     default:
                         Console.WriteLine("\nOpcion invalida, intente de nuevo.\n");
-                        break;
+                    break;
                 }
                 
             }
